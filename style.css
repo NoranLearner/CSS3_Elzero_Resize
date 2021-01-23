@@ -1,0 +1,24 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+
+    overflow-x: scroll;
+    overflow-y: visible;
+    /* overflow: scroll; */
+
+    resize: both;
+}
+
+textarea{
+    resize: none;
+}
